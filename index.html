@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <div class="left">
+        <div class="logo">
+          <img style="opacity: 1;" id="odin_logo" src="Photos/odin-lined.png" alt="" />
+          <span style="opacity: 1;"> ODIN </span>
+        </div>
+      </div>
+      <div class="right">
+        <div class="first">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </p>
+          <br />
+          <p><span style="font-style: italic">You know you want to.</span></p>
+        </div>
+        <div class="second">
+          <h1 id="ldt">Let's do this!</h1>
+          <br />
+          <div class="formz">
+            <div class="left_form">
+              <form class="lf" action="" method="get">
+                <label for="f_name">First Name:</label>
+                <input type="text" id="f_name" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" />
+                <label for="pword">Password:</label>
+                <input type="password" id="pword" required />
+                <p id="error"><span style="color: red"></span></p>
+              </form>
+            </div>
+            <div class="right_form">
+              <form class="rf" action="" method="get">
+                <form class="lf" action="" method="get">
+                  <label for="l_name">Last Name:</label>
+                  <input type="text" id="l_name" />
+                  <label for="p_num">Phone Number:</label>
+                  <input type="text" id="p_num" />
+                  <label for="cpword">Confirm Password:</label>
+                  <input type="password" id="cpword" required />
+
+                  <br />
+                </form>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="third">
+          <br>
+          <br>
+          <button class="btn" type="submit">Create an Account</button>
+          <br>
+          <p id="goToLogin">Already have an account? <a href="">Go to login.</a> </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
